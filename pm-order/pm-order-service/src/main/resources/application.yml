@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: order-service
+  datasource:
+    driverclassname: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.108.230.242:3306/maindatabase?useUnicode=true&characterEncoding=UTF-8
+    username: trE6vX$l
+    password: ADM%ca8A
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    virtual-host: /payment
+    template:
+      retry:
+        enabled: true
+        initial-interval: 1000ms
+        max-interval: 30000ms
+        multiplier: 2
+      exchange: pm.item.exchange
+    publisher-confirms: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1

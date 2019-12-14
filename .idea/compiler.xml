@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pm-registry" />
+        <module name="pm-common" />
+        <module name="pm-order-interface" />
+        <module name="pm-user-service" />
+        <module name="pm-user-interface" />
+        <module name="pm-gateway" />
+        <module name="pm-order-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pm-common" options="-parameters" />
+      <module name="pm-gateway" options="-parameters" />
+      <module name="pm-order" options="-parameters" />
+      <module name="pm-order-interface" options="-parameters" />
+      <module name="pm-order-service" options="-parameters" />
+      <module name="pm-registry" options="-parameters" />
+      <module name="pm-user" options="-parameters" />
+      <module name="pm-user-interface" options="-parameters" />
+      <module name="pm-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

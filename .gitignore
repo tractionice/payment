@@ -1,0 +1,8 @@
+# Project exclude paths
+/pm-common/target/
+/pm-gateway/target/
+/pm-order/pm-order-interface/target/
+/pm-order/pm-order-service/target/
+/pm-registry/target/
+/pm-user/pm-user-interface/target/
+/pm-user/pm-user-service/target/

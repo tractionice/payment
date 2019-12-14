@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-order/pm-order-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-order/pm-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-user/pm-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pm-user/pm-user-service" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
