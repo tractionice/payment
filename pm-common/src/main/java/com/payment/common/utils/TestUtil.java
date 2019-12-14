@@ -5,4 +5,8 @@ public class TestUtil {
         String testGit = null;
         return testGit;
     }
+    public String test2(){
+        String testGit = null;
+        return testGit;
+    }
 }
